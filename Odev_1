@@ -1,3 +1,4 @@
+#Odd numbers list and even numbers list
 db = list(range(20))
 oddlist=list()
 evenlist=[]
@@ -10,3 +11,15 @@ for i in db:
 
 print(oddlist)
 print(evenlist)
+
+#Merge lists
+newlist=oddlist+evenlist
+print(evenlist)
+
+#Multiply lists by 2
+newlist=[i*2 for i in newlist]
+print(newlist)
+
+#Print all the types
+for i in newlist:
+    print(type(i))
