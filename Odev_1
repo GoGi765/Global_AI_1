@@ -1,0 +1,10 @@
+db = list(range(20))
+
+for i in db:
+  if i % 2 != 0:
+    oddlist.append(i)
+  else:
+    evenlist.append(i)
+
+print(oddlist)
+print(evenlist)
