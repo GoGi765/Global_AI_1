@@ -1,10 +1,12 @@
 db = list(range(20))
+oddlist=list()
+evenlist=[]
 
 for i in db:
-  if i % 2 != 0:
-    oddlist.append(i)
-  else:
-    evenlist.append(i)
+    if i % 2 != 0:
+        oddlist.append(i)
+    else:
+        evenlist.append(i)
 
 print(oddlist)
 print(evenlist)
